@@ -7,6 +7,9 @@ A description and evaluation of this approach can be found here: https://jdunn.n
 
 A complete list of language codes and names per regional model can be found in the *language_names* directory.
 
+**Installation**
+    pip install geoLid
+
 **Downloading models**
 
 geoLid contains a baseline non-geographic model as well as models for 16 specific regions, as shown below:
