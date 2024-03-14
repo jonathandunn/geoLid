@@ -7,7 +7,7 @@ A description and evaluation of this approach can be found here: https://jdunn.n
 
 A complete list of language codes and names per regional model can be found in the *language_names* directory.
 
-#Downloading models
+**Downloading models**
 
 geoLid contains a baseline non-geographic model as well as models for 16 specific regions, as shown below:
 
@@ -36,7 +36,7 @@ To download models, use this command:
 
 The model name "all" will download all region-specific models.
 
-#Usage
+**Usage**
 
 Language identification can be used as shown below:
 
@@ -45,5 +45,7 @@ Language identification can be used as shown below:
     labels = lid.predict(data = data, region = "baseline")
 
 The *model_location* during initialization points to the directory containing the LID models.
+
 The input variable *data* is a list containing at least one string that represents a text to make predictions about.
+
 The *region* variable indicates which region-specific model should be used. The default is to use the non-geographic baseline model.
